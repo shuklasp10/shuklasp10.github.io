@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    height: 60vh;
+    width: 50%;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.circle1,
+.circle2 {
+    height: 10rem;
+    width: 10rem;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 29%, rgba(126,203,244,1) 59.2% );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.circle1{
+    top: 10%;
+    left: 10%;
+}
+.circle2{
+    bottom: 10%;
+    right: 10%;
+}
+.formlay{
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+h1{
+    font-family: 'Arial Rounded MT';
+    color: rgb(241, 239, 236);
+
+}
+.butt{
+    margin-top: 25px;
+}
+.link{
+    text-decoration: none;
+}
+p{
+    color: rgb(37, 37, 37);
+}
+
