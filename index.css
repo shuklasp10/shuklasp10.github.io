@@ -50,7 +50,7 @@ main{
 }
 h1{
     font-family: 'Arial Rounded MT';
-    color: rgb(241, 239, 236);
+    color: rgb(65, 63, 63);
 
 }
 .butt{
@@ -62,4 +62,18 @@ h1{
 p{
     color: rgb(37, 37, 37);
 }
-
+@media (max-width: 800px){
+    .login{
+        height: 60vh;
+        width: 80%;
+        background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+        border-radius: 2rem;
+        z-index: 2;
+        backdrop-filter: blur(2rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+}
